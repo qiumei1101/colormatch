@@ -1,1 +1,105 @@
-Color Match
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="keywords" content="optische T?uschungen, optische Illusionen, Gestalt, Sehph?nomene, Auge, Sehen" />	<meta name="author" content="Michael Bach">
+	<link rel="author" href="https://plus.google.com/u/0/111676285399967100912"/>
+	<meta name="robots" content="index,follow">
+	<meta name="viewport" content="width=device-width" />
+	<link rel="STYLESHEET" href="../-misc/sheet1ots.css" type="text/css">
+
+	<script type="text/javascript" src="../-misc/ot-javas.js"></script>
+	<script src="../../includes/hyphenator/Hyphenator.js" type="text/javascript"></script>
+	<script type="text/javascript">Hyphenator.run();</script>
+
+	<script async type="text/javascript">
+	  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-66886-1']);  _gaq.push(['_trackPageview']);
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+
+	<title>Colour Matching Game</title>
+	<meta name="description" content="An interactive Colour Matching Task: try to match a target colour! Two colour models (RGB and HSL) can be selected.">
+</head>
+
+<body class="hyphenate" bgcolor="white" background="../../images/shady_brown.gif" text="black"><!-- #BeginLibraryItem "/Library/javalib0call.lbi" -->
+<a name="anchor_top"></a>
+<script type="text/javascript">
+<!--
+window.onerror = myOnErrorHandler;
+function myOnErrorHandler(msg, url, lno){return true;}
+Initialize()
+//-->
+</script><!-- #EndLibraryItem --><script type="text/javascript">IlluHeader("Colour Matching Game", "icon.png");</script>
+
+<div id="illuBody">
+
+<div class="float_right" align="right"><iframe src="capp/index.html" frameborder="0" width="459" height="642" scrolling="no"></iframe><br>
+<script type="text/javascript">doesntWorkButton();</script>
+</div>
+
+<p><br /><em>What to see</em></p>
+<p class="textIndent1">In the adjoining demo you see in the left part two coloured squares atop each other. The lower one is the target colour, the one you'll want to match. It is randomly selected each time you press <span class="fontSans">Reset</span>. The upper colour square (preset to blue) is the one you can change with the three mixing sliders.</p>
+<p class="textIndent1">Initially the mixing sliders control an RGB space: left for red, middle for green, right for blue.</p>
+<p class="textIndent1">With the pop-up at the very top you can alternatively select the HSL colour space, where the letters stand for H=hue, S for saturation (=“strength” of the colour), and L=lightness (similar to brightness).</p>
+<p class="textIndent1">If you find this all bewildering and difficult, welcome to the club! I've spent decades on it…</p>
+
+<p><i>What to do</i></p>
+<p class="textIndent1">Effectively, you can see this as a game: can I match the colour, and if so, how fast?</p>
+<p class="textIndent1">Try to match the colour at the left bottom with the left top colour. You will need to use all three sliders with normal colour vision: human colour vision is trichromatic or three-dimensional.</p>
+<p class="textIndent1">The bar below the slider indicates similarity on a %-scale. You can turn this into a competition: the similarity goal can be changed (preset to 10%), and <span class="fontSans">Reset</span> starts a seconds timer next to it. Who can reach threshold faster?</p>
+
+<p><i>Comments</i></p>
+<div class="float_left"><img src="RGB.png" width="200" height="177" alt="RGB colour space"><br>
+  RGB colour space<br>
+  (images from <a href="http://en.wikipedia.org/wiki/HSL_and_HSV" target="_blank">Wikipedia</a>) </div>
+<div class="float_right"><img src="HSL.png" width="200" height="160" alt="HSL colour space"><br>
+HLS colour space</div>
+<p class="textIndent1">When you switch to the HSL colour space, the sliders take on  different roles. You can compare this to the two controls on you HiFi: typically, you have one control for volume, another for balance. Alternatively, you can have a volume left / volume right arrangement. With both setups, you can cover the entire “audio space”, but in different ways. It is very similar with these two colour spaces (RGB vs HSL), and for added complexity there are even more colour spaces…</p>
+<p class="textIndent1">The RGB colour space is typically the one our displays and computer projectors are based upon. It resembles a cube (see left figure). The HSL colour space is a cylinder, a horizontal section through it will reveal a colour wheel. That is rather natural, as our hue space is circular: red-yellow-green-blue-violet-red… The left slider does, of course, a poor job for a circular measure. You will notice that red appears both at the top and at the bottom. If saturation or lightness are at zero (bottom), the colour is black regardless of the hue setting.</p>
+<p class="textIndent1">While the HSL space is a little more physiological (circular hue parameter), a double cone shape or a ball would be even closer: for very dark and very bright colours we perceive less saturation. One good colour space is the L*a*b variant.</p>
+
+<p>&nbsp;</p>
+</div>
+
+<p><i>Created: 2014-06-29</i></p><!-- #BeginLibraryItem "/Library/footer0.lbi" --> <a name="anchor_bottom" id="anchor_bottom"></a>
+<script type="text/javascript"><!--
+CreateTopBackButton();
+// -->
+</script>
+<hr style="width:90%; text-align:left;" />
+<span class="font_smaller">
+<!--<script type="text/javascript">
+	if (window.location.href.indexOf("/ot/")>0) {
+		if (window.location.href.indexOf("/ot/index")>0) {
+		document.write("<a href='-misc/noGuestbook.html'>Guestbook</a> &nbsp; | &nbsp; <a href='-misc/faq.html'>FAQ</a> &nbsp; | &nbsp; <a href='-misc/donations.html'>Donations</a>  ")
+		} else {
+		document.write("<a href='../-misc/noGuestbook.html'>Guestbook</a> &nbsp; | &nbsp; <a href='../-misc/faq.html'>FAQ</a> &nbsp; | &nbsp; <a href='../-misc/donations.html'>Donations</a>")
+		}
+	}
+</script> -->
+<script type="text/javascript"><!--
+	if (window.location.href.indexOf("/ot/")>0) {
+		if (window.location.href.indexOf("/ot/index")>0) {
+		document.write("<a href='-misc/faq.html'>FAQ</a> | &nbsp; ")
+		} else {
+		}
+	}
+</script>
+<a href="../../includes/masthead.html">Impressum·Legal notice</a> &nbsp; | &nbsp; </span> <span class="font_smaller">
+<script type="text/javascript"><!--
+document.writeln(window.location.href)
+//-->;
+</script>
+</span>
+<noscript>
+<span class="font_smaller">michaelbach.de</span>
+</noscript>
+<br />
+<span class="font_smaller">Last update
+<!-- #BeginDate format:IS1 -->2018-06-02<!-- #EndDate -->
+by&nbsp;<a href="https://michaelbach.de/index.html">Michael&nbsp;Bach</a></span><!-- #EndLibraryItem --></body>
+</html>
